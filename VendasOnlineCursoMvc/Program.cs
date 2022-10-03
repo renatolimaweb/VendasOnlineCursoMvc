@@ -14,7 +14,6 @@ namespace VendasOnlineCursoMvc
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-            string variavelDoida = "Calebinho";
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

@@ -28,6 +28,12 @@ namespace VendasOnlineCursoMvc.Controllers
             return View();
         }
 
+        public IActionResult Sobre()
+        {
+            ViewData["TextoDaPagina"] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a accumsan elit. Cras arcu turpis, rhoncus et interdum tincidunt, sodales ut justo. Vivamus dui lectus, fringilla at tincidunt a, aliquet id metus. Cras non feugiat arcu, at faucibus dui. Morbi accumsan ornare ipsum a sollicitudin. Donec pellentesque ornare hendrerit. Nulla fringilla nisl non dui euismod sollicitudin. Sed nec fermentum sapien. Etiam eu mauris ac magna luctus consequat non eu odio. Morbi non justo eu orci sagittis aliquet vel et arcu. Quisque ultricies dictum tortor quis efficitur";
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
